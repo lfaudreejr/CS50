@@ -1,3 +1,5 @@
-# CS50
+# Harvard CS50: Intro to Computer Science
 
-My Completed Solutions to the Problem Sets from the CS50 course at Harvard.
+My Completed Solutions to the Problem Sets from the CS50 course at Harvard on edX.
+
+While taking this course I am completing all the "More Comfortable" PSETs and going through and completing the CS50 study programs as well.
