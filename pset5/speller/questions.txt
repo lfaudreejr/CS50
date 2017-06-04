@@ -1,0 +1,7 @@
+0.  a long word said to mean a lung disease caused by inhaling fine ash and sand dust
+1.  gets resource usage statistics
+2.  16
+3.  for performance reasons, not making a bunch of structs for each rusage
+4.  The file is open and fgetc gets the next char from a file. This is stored in variable c and if it that char is not the End of the file, the we ask if c is an alphanumeric char or '\0' end of a string. If it is then we add it to our word. If the index is greater than the length of a defined word we skip the string and reset index to 0; This happens for numbers as well. If the index passes those tests but is greater than 0 than a word is found. A '\0' is added to the end of the current word. The words counter gets updated. We check the word using getrusage() and calculate the time it takes to perform rusage. If the word is misspelled we track it.
+5.  because fscanf can return more than just alphabetical characters and apostrophes, it will return numbers we want to skip
+6.  to prevent unwanted changes to our word or dictionary
